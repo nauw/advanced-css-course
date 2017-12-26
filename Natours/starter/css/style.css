@@ -39,7 +39,6 @@ body {
     height: 35px;
 }
 
-
 .logo-box {
     position: absolute;
     top: 40px;
@@ -112,7 +111,6 @@ body {
         transform: translateX(100px);
     }
 
-
     80% {
         transform: translateX(-10px);
     }
@@ -121,4 +119,12 @@ body {
         opacity: 1;
         transform: translate(0);
     }
+}
+
+.btn:link, btn:visited {
+
+}
+
+.btn--white {
+
 }
