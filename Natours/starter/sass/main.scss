@@ -11,6 +11,9 @@ $color-primary: #7ed56f;
 $color-primary-light: #55c57a;
 $color-primary-dark: #28b485;
 
+$color-grey-dark: #777;
+$color-white: #fff;
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
@@ -26,7 +29,7 @@ body {
   font-weight: 400;
   /*font-size: 16px;*/
   line-height: 1.7;
-  color: #777777;
+  color: $color-grey-dark;
   padding: 3rem;
   box-sizing: border-box; /* Nice tips */
 }
@@ -61,10 +64,10 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
+  }
 
 .heading-primary {
-  color: #ffffff;
+  color: $color-white;
   text-transform: uppercase;
   backface-visibility: hidden; /* Nice tips */
   margin-bottom: 6rem;
@@ -161,8 +164,8 @@ body {
   transform: translateY(-0.1rem);
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0,.2);}
 .btn--white {
-  background-color: #fff;
-  color: #777777;
+  background-color: $color-white;
+  color: $color-grey-dark;
 }
 
 .btn::after{
@@ -179,7 +182,7 @@ body {
 }
 
 .btn--white::after{
-  background-color: #ffffff;
+  background-color: $color-white;
 }
 
 .btn:hover::after{
